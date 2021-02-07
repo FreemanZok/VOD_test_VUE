@@ -1,4 +1,4 @@
-# rashin-vue
+# rashin
 
 ## Project setup
 ```
