@@ -2,7 +2,7 @@
     <div class="side-menu-wrapper left">
       <ul class="side_menu">
         <li class="side_menu-item" v-for="item in menu" v-bind:key="item.id">
-          <a href="">{{item.title}}</a>
+          <a :href="item.href" > {{item.title}} </a>
         </li>
       </ul>
     </div>
@@ -30,6 +30,39 @@ export default {
           title: "asgdasdg",
           href: "/hi ",
         },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        {
+          title: "asgdasdg",
+          href: "/hi ",
+        },
+        
       ],
     };
   },

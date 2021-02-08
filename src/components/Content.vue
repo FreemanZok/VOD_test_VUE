@@ -2,7 +2,7 @@
   <div class="main-content">
     <div class="landscape-box">
       <div class="landscape-img-wrapper">
-        <img id="landscape" class="inner-img" :src="landscape" alt="salam" />
+        <img id="landscape" class="inner-img" :src="landscape"/>
       </div>
       <div class="movie_info">
         <div class="movie_title">{{ title_landsacape }}</div>
